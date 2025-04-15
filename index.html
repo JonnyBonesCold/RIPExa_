@@ -2,121 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RIPEXA - Official YouTube</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RIPEXA - YouTube Channel</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-color: #0e0e0e;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
       color: white;
-    }
-    header {
-      background: url('https://yt3.googleusercontent.com/5nFDUMJKkNViOmUFe97kCjc3gRWE6FTWlHt5_VbWLcavSYTUlFFR4EXF34biB3_nEY-gk91HUQ=w1024-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj') center/cover no-repeat;
       text-align: center;
-      padding: 160px 20px 60px;
-      position: relative;
     }
-    .profile-pic {
-      width: 120px;
-      height: 120px;
+
+    header {
+      background-image: url('https://yt3.googleusercontent.com/TIYF_8tOrfOjRM8XsPV4pFQjRRlHl0C2PzUlQApZs2qapZ4QAs2z6k6M0CJW_gUpzyA2y9WI8A=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj'); 
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px 50px 20px;
+    }
+
+    .pfp {
+      width: 160px;
+      height: 160px;
       border-radius: 50%;
       border: 4px solid white;
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
+      margin-top: -80px;
+      background-color: black;
     }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-      color: #ff0000;
-      margin-top: 140px;
+
+    h1 {
+      margin-top: 20px;
+      font-size: 48px;
+      letter-spacing: 2px;
     }
-    header p {
-      font-size: 1.2em;
-      color: #ccc;
+
+    .video-container {
+      margin: 50px auto;
+      max-width: 100%;
+      width: 90%;
+      aspect-ratio: 16/9;
     }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+
     .button {
-      padding: 12px 24px;
-      background: #ff0000;
+      background-color: #ff0000;
       color: white;
       border: none;
-      border-radius: 6px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
       text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s;
-      display: inline-block;
-      margin-top: 15px;
     }
+
     .button:hover {
-      background: #cc0000;
+      background-color: #cc0000;
     }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .embed {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    iframe {
-      border: none;
-      width: 100%;
-      max-width: 800px;
-      height: 450px;
-      border-radius: 12px;
-    }
-    .about {
-      background: #1a1a1a;
-      border-radius: 12px;
-      padding: 20px;
-    }
+
     footer {
-      text-align: center;
+      margin-top: 50px;
       padding: 20px;
-      color: #777;
+      background-color: #111;
     }
   </style>
 
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID-HERE"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'YOUR-GA-ID-HERE');
+    gtag('config', 'G-W80JEM9HX1'); // Replace with your Google Analytics tag ID
   </script>
 </head>
-
 <body>
 
-  <header>
-    <img class="profile-pic" src="https://yt3.googleusercontent.com/oLE7dNFBIS7gvL9FxNmmTz48cFjX_C7Bv4QZDWj7XAMvmDfYdiuvFJZTwGubA1SzjR4OVs7W6A=s176-c-k-c0x00ffffff-no-rj" alt="RIPEXA Profile">
-    <h1>RIPEXA</h1>
-    <p>Welcome to the official site of my YouTube channel!</p>
-    <a class="button" href="https://youtube.com/@ripexa?si=lws6q1ds3gLCPbFD" target="_blank">Subscribe on YouTube</a>
-  </header>
+  <header></header>
 
-  <section>
-    <h2>Featured Video</h2>
-    <div class="embed">
-      <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=ripexa" allowfullscreen></iframe>
-    </div>
-  </section>
+  <img src="https://yt3.googleusercontent.com/ytc/AIdro_kkw8x4X3UUMNGEsFaGqWmJeAxk91aYj7eAflwNSg=s176-c-k-c0x00ffffff-no-rj" alt="RIPEXA PFP" class="pfp"/>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm RIPEXA — a gamer and YouTube creator. I make fun content about Brawl Stars and other games, always with a competitive and entertaining style. Thanks for checking out my official site — new videos all the time!</p>
-  </section>
+  <h1>RIPEXA</h1>
+  
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/N8M6HdgjRug" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://youtube.com/@ripexa" target="_blank" class="button">Subscribe on YouTube</a>
 
   <footer>
-    &copy; 2025 RIPEXA. All rights reserved.
+    <p>© 2025 RIPEXA. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
+
+Attachments area
+Preview YouTube video Brawl Talk Parody *But It's Actually Better!
 

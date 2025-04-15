@@ -1,112 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W80JEM9HX1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-W80JEM9HX1');
-</script>
-  
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RIPEXA - YouTube Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official website of RIPEXA - Music, videos, and more!" />
+  <title>RIPEXA</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0d0d0d;
-      color: white;
-      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     header {
-      background-image: url('https://yt3.googleusercontent.com/TIYF_8tOrfOjRM8XsPV4pFQjRRlHl0C2PzUlQApZs2qapZ4QAs2z6k6M0CJW_gUpzyA2y9WI8A=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj'); 
-      background-size: cover;
-      background-position: center;
-      padding: 100px 20px 50px 20px;
+      background: #1f1f1f;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(255, 0, 128, 0.5);
     }
 
-    .pfp {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      border: 4px solid white;
-      margin-top: -80px;
-      background-color: black;
+    header img {
+      max-width: 200px;
+      border-radius: 12px;
     }
 
     h1 {
-      margin-top: 20px;
-      font-size: 48px;
-      letter-spacing: 2px;
+      font-size: 2rem;
+      margin: 0.5rem 0;
+      color: #ff0080;
     }
 
-    .video-container {
-      margin: 50px auto;
-      max-width: 100%;
-      width: 90%;
-      aspect-ratio: 16/9;
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .video {
+      margin-top: 2rem;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(255, 0, 128, 0.3);
     }
 
     iframe {
       width: 100%;
-      height: 100%;
+      height: 315px;
       border: none;
-      border-radius: 10px;
     }
 
-    .button {
-      background-color: #ff0000;
-      color: white;
-      border: none;
-      padding: 15px 30px;
-      font-size: 18px;
-      border-radius: 8px;
-      cursor: pointer;
+    .btn {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #ff0080;
+      color: #fff;
       text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s ease;
     }
 
-    .button:hover {
-      background-color: #cc0000;
+    .btn:hover {
+      background: #e60073;
     }
 
     footer {
-      margin-top: 50px;
-      padding: 20px;
-      background-color: #111;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
     }
   </style>
-
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-    gtag('config', 'G-W80JEM9HX1'); // Replace with your Google Analytics tag ID
+
+    gtag('config', 'G-XXXXXXXXXX');
   </script>
 </head>
+
 <body>
+  <header>
+    <img src="https://yt3.googleusercontent.com/AjaR1qObSk03YADhVCy2c_7xZcCm1qT6Gbhv5mx1znYAPgZmt0NUbM3rAGo_f4VJSD6IiyrM=s176-c-k-c0x00ffffff-no-rj" alt="RIPEXA Banner">
+    <h1>RIPEXA</h1>
+  </header>
 
-  <header></header>
+  <main>
+    <p>Welcome to the official website of RIPEXA. Check out the latest music video below and don't forget to subscribe!</p>
 
-  <img src="https://yt3.googleusercontent.com/RBE6BQTrmaeG0Zg6uX_-Pf_FlzJqLDT92QYV0rxuAzFCMgj2m9RkLYb93ZLsqQafQUAaTdANqg=s160-c-k-c0x00ffffff-no-rj"/>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/N8M6HdgjRug?si=z3DHehI5vfkj9fhn" title="RIPEXA Video" allowfullscreen></iframe>
+    </div>
 
-  <h1>RIPEXA</h1>
-  
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/N8M6HdgjRug" allowfullscreen></iframe>
-  </div>
-
-  <a href="https://youtube.com/@ripexa" target="_blank" class="button">Subscribe on YouTube</a>
+    <a href="https://youtube.com/@ripexa?si=lws6q1ds3gLCPbFD" class="btn" onclick="gtag('event', 'click', { event_category: 'outbound', event_label: 'YouTube Channel' });">Visit My YouTube Channel</a>
+  </main>
 
   <footer>
-    <p>© 2025 RIPEXA. All rights reserved.</p>
+    <p>&copy; 2025 RIPEXA. All rights reserved.</p>
   </footer>
 </body>
+
 </html>
+
